@@ -1,6 +1,6 @@
 IMAGE_NAME         := oslokommune/golang-cross
 GHCR_IMAGE_NAME    ?= ghcr.io/$(IMAGE_NAME)
-GO_VERSION         ?= 1.17.3
+GO_VERSION         ?= 1.17.2
 TAG_VERSION        := v$(GO_VERSION)
 GORELEASER_VERSION := 0.184.0
 GORELEASER_SHA     := 0972c17d94f2a95aafbef0c9f6d01ea774abfb8d37b85778e8cb4885efc24511

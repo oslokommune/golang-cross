@@ -1,6 +1,6 @@
 # golang parameters
 ARG GO_VERSION
-FROM troian/golang-cross:v${GO_VERSION}-base AS base
+FROM oslokommune/golang-cross:v${GO_VERSION}-base AS base
 
 #ARG APT_MIRROR
 #RUN sed -ri "s/(httpredir|deb).debian.org/${APT_MIRROR:-deb.debian.org}/g" /etc/apt/sources.list \
