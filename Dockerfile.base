@@ -9,7 +9,7 @@ ARG GORELEASER_SHA
 ARG APT_MIRROR
 ARG TINI_VERSION
 
-LABEL maintainer="Artur Troian <troian dot ap at gmail dot com>"
+LABEL maintainer="Oslo Kommune - Kjøremiljø"
 
 COPY entrypoint.sh /
 
