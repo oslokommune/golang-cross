@@ -1,3 +1,4 @@
+[![release](https://github.com/oslokommune/golang-cross/actions/workflows/release.yaml/badge.svg)](https://github.com/oslokommune/golang-cross/actions/workflows/release.yaml)
 # golang-cross
 
 Docker container to turn CGO cross-compilation pain into a pleasure. It tested on [variety of platforms](#supported-toolchains/platforms).

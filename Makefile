@@ -1,4 +1,4 @@
-IMAGE_NAME         := troian/golang-cross
+IMAGE_NAME         := oslokommune/golang-cross
 GHCR_IMAGE_NAME    ?= ghcr.io/$(IMAGE_NAME)
 GO_VERSION         ?= 1.17.2
 TAG_VERSION        := v$(GO_VERSION)
